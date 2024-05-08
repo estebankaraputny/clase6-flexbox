@@ -1,0 +1,209 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+}
+
+/*Página INICIO*/
+
+/*Barra de navegación*/
+
+.content-nav{
+    width: 100%;
+    padding: 10px;
+    display: flex; /*FLEXBOX*/
+    justify-content: space-between; /*Propiedad de flexbox*/
+    align-items: center; /*Propiedad de flexbox*/
+    background-color: rgb(214, 255, 195);
+}
+
+.list-nav{
+    list-style: none; /*Propiedad de una lista - Eliminar los puntos*/
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-nav{
+    width: 30%;
+}
+
+.button-nav{
+    text-decoration: none; /*Elimina el subrayado*/
+    color: black;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+.button-nav:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+/*Main de Inicio*/
+
+.content-portada{
+    width: 100%;
+    height: 300px;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-page{
+    color: rgb(40, 148, 40);
+    font-size: 50px;
+}
+
+.text-sub{
+    color: rgb(117, 117, 117);
+}
+
+.subtitle{
+    color: rgb(40, 148, 40);
+    font-size: 30px;
+    width: 100%;
+    padding: 20px;
+}
+
+.content-tendencias{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-tendencia{
+    width: 30%;
+}
+
+.card-tendencia:hover{
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.img-tendencia{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.title-tendencia{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(96, 128, 72);
+    padding-top: 10px;
+}
+
+.content-trabajos{
+    display: flex;
+    flex-direction: column;
+}
+
+.trabajos{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+.img-trabajo{
+    width: 50%;
+    height: 80%;
+    padding: 0 50px;
+    object-fit: cover;
+}
+
+.content-info-trabajos{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-trabajos{
+    color: rgb(96, 128, 72);
+    font-size: 30px;
+}
+
+.descripcion-trabajos{
+    width: 80%;
+    padding: 20px;
+    color: rgb(73, 73, 73);
+}
+
+.content-empresas{
+    padding: 2rem;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.empresa{
+    width: 15%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-empresa{
+    width: 100%;
+    height: auto;
+}
+
+.nombre-empresa{
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    height: 10rem;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-redes{
+    width: 30%;
+    text-align: center;
+}
+
+.items-redes{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.link-redes{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link-redes:hover{
+    color: green;
+    cursor: pointer;
+}
