@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-image: url(../Clase5/asset/image/accenture.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.main > div{
+    width: 100%;
+}
+
+.primer-div-padre{
+    height: 300px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-hijo1{
+    width: 20%;
+    height: 50%;
+
+
+}
+
+.segundo-div-padre{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.segundo-div-padre  > div{
+    
+    width: 45%;
+}
+
+.tercer-div-padre{
+    height: 300px;
+    background-color: rgb(43, 106, 26);
+}
+
+.cuarto-div-padre{
+    height: 300px;
+    background-color: rgb(172, 71, 96);
+}
